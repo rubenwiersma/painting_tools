@@ -14,7 +14,7 @@ For each scan, we provide:
 - Processed data.
 - An example python Notebook for unmixing paints with [Pigmento](https://cragl.cs.gmu.edu/pigmento/) using the data.
 
-The data was captured as part of research conducted at the [CGV group at the TU Delft](https://graphics.tudelft.nl) by [Ruben Wiersma](https://www.rubenwiersma.nl). The reconstructions were painted by Lisa Wiersma, Charlotte Caspers, and Mané van Veldhuizen. Matthias Alfeld generously assisted in capturing the hyperspectral scans.
+The data was captured as part of research conducted at the [CGV group at the TU Delft](https://graphics.tudelft.nl) by [Ruben Wiersma](https://www.rubenwiersma.nl) for a project in collaboration with Elmar Eisemann and Adrien Bousseau. The reconstructions were painted by Lisa Wiersma, Charlotte Caspers, and Mané van Veldhuizen. Matthias Alfeld generously assisted in capturing the hyperspectral scans.
 
 The data is shared under a permissive copyright license ([CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)) and the code under the MIT license. If this data or code is helpful to your research, please cite this repository and attribute the artists ([see below](#citing-and-attribution)) and [send me an email](mailto:rubenwiersma@gmail.com). I would love to hear your thoughts and feedback!
 
