@@ -129,7 +129,7 @@ We share this data and code in the hopes that other researchers may find it usef
     - Linseed oil (cooked) from Verfmolen de kat.
     - Substrate: Leneta opacity charts (2C)
     - Paintouts were applied using a draw bar with height 200 micrometer.
-- **What data is known of the paint samples?** For each paint sample we recorded the following information (available in the file `paintouts.csv` in the raw painouts data):
+- **What data is known of the paint samples?** For each paint sample we recorded the following information (available in the file `paintouts.csv` in the raw paintouts data):
     - The name of the pigment and code in the Kremer pigments library.
     - The amount of pigment vs. linseed oil in grams (up to two decimal places).
     - The amount of paint (mixture of pigment and oil) in grams for each mixture.
