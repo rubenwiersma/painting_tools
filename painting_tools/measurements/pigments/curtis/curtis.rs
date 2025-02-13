@@ -1,0 +1,12 @@
+"Quinacridone Rose"	0.57	1.47	0.22	0.03	0.003	0.05
+"Indian Red"	1.50	1.07	0.46	0.21	0.38	1.28
+"Cadmium Yellow"	3.45	0.36	0.10	0.007	0.65	0.97
+"Hookers Green"	1.64	0.61	1.62	0.003	0.012	0.01
+"Cerulean Blue"	0.25	0.32	1.52	0.40	0.26	0.06
+"Burnt Umber"	2.10	1.54	0.74	0.004	0.09	0.09
+"Cadmium Red"	1.68	1.08	0.14	0.018	0.015	0.77
+"Brilliant Orange"	3.45	0.81	0.13	0.007	0.009	0.005
+"Hansa Yellow"	1.78	0.21	0.06	0.009	0.88	0.50
+"Phthalo Green"	0.63	0.47	1.55	0.035	0.05	0.01
+"French Ultramarine"	0.06	0.86	0.86	0.09	0.005	0.005
+"Interference Lilac"	0.07	0.11	0.08	1.43	0.42	1.25
