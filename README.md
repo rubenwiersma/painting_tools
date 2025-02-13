@@ -4,8 +4,8 @@
 <small>_Processed paint samples, using the Kubelka-Munk model to compute reflection and the `painting_tools` package to display the RGB values. [See the corresponding notebook](https://github.com/rubenwiersma/painting_tools/blob/main/notebooks/02_oilpaint_dataset/02_captured_parameter_estimation.ipynb) to understand how these parameters were estimated._</small>
 
 This repository contains code and links to data for painting analysis using hyperspectral data. The data contains:
-- Hyperspectral scans of nine historical reconstructions by professional painters.
-- Hyperspectral scans of ten historical pigments in oilpaint.
+- Hyperspectral scans of [nine historical reconstructions](#paintings-and-pigments) by professional painters.
+- Hyperspectral scans of [ten historical pigments](#paintings-and-pigments) in oilpaint.
 - Several painting stages of one of the captured paintings (Vermeer's Milkmaid).
 
 For each scan, we provide:
