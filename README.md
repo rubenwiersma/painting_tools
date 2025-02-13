@@ -1,7 +1,7 @@
 # Painting Tools and Dataset
 
 ![Paintout samples used in the Kubelka-Munk model](img/pigments_overview.png)
-_Processed paint samples, using the Kubelka-Munk model to compute reflection and the `painting_tools` package to display the RGB values. [See the corresponding notebook](https://github.com/rubenwiersma/painting_tools/blob/main/notebooks/02_oilpaint_dataset/02_captured_parameter_estimation.ipynb) to understand how these parameters were estimated._
+<small>_Processed paint samples, using the Kubelka-Munk model to compute reflection and the `painting_tools` package to display the RGB values. [See the corresponding notebook](https://github.com/rubenwiersma/painting_tools/blob/main/notebooks/02_oilpaint_dataset/02_captured_parameter_estimation.ipynb) to understand how these parameters were estimated._</small>
 
 This repository contains code and links to data for painting analysis using hyperspectral data. The data contains:
 - Hyperspectral scans of nine historical reconstructions by professional painters.
@@ -19,7 +19,7 @@ The data was captured as part of research conducted at the [CGV group at the TU 
 The data is shared under a permissive copyright license ([CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)) and the code under the MIT license. If this data or code is helpful to your research, please cite this repository and attribute the artists ([see below](#citing-and-attribution)) and [send me an email](mailto:rubenwiersma@gmail.com). I would love to hear your thoughts and feedback!
 
 ![Rachel Ruysch's bloemstilleven calibrated and stitched](img/ruysch_calibrated.png)
-_Left: The calibrated and stitched hyperspectral scan of Rachel Ruysch's bloemstilleven as reconstructed by Lisa Wiersma. Right: the RGB photograph used to register the hyperspectral scans. [See the corresponding notebook](https://github.com/rubenwiersma/painting_tools/blob/main/notebooks/01_painting_dataset/hyperspectral_calibration_stitching.ipynb) for more._
+<small>_Left: The calibrated and stitched hyperspectral scan of Rachel Ruysch's bloemstilleven as reconstructed by Lisa Wiersma. Right: the RGB photograph used to register the hyperspectral scans. [See the corresponding notebook](https://github.com/rubenwiersma/painting_tools/blob/main/notebooks/01_painting_dataset/hyperspectral_calibration_stitching.ipynb) for more._</small>
 
 ## Table of contents
 - [Download links](#download-links)
