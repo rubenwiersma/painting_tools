@@ -117,6 +117,7 @@ jupyter notebook
 We share this data and code in the hopes that other researchers may find it useful. We make no claims about the validity of the data or the correctness of the code, but hope that it can inspire and inform researchers in technical art history and computer graphics on how to use and share data from technical inspections. Some examples usecases of this dataset:
 - Experiment with stitching algorithms for hyperspectral data.
 - Identifying and mapping pigments in paintings using hyperspectral data (see notebook in `notebooks/03_example_unmixing`).
+- High-dimensional data visualization and exploration.
 - Algorithms for estimating Kubelka-Munk parameters and improved models.
 - Improving ways to share and disemminate technical knowledge for painting analysis.
 
