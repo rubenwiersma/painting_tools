@@ -1,5 +1,8 @@
 # Painting Tools and Dataset
 
+![Paintout samples used in the Kubelka-Munk model](img/pigments_overview.png)
+_Processed paint samples, using the Kubelka-Munk model to compute reflection and the `painting_tools` package to display the RGB values. [See the corresponding notebook](https://github.com/rubenwiersma/painting_tools/blob/main/notebooks/02_oilpaint_dataset/02_captured_parameter_estimation.ipynb) to understand how these parameters were estimated._
+
 This repository contains code and links to data for painting analysis using hyperspectral data. The data contains:
 - Hyperspectral scans of nine historical reconstructions by professional painters.
 - Hyperspectral scans of ten historical pigments in oilpaint.
@@ -7,16 +10,20 @@ This repository contains code and links to data for painting analysis using hype
 
 For each scan, we provide:
 - Raw scan files from the Specim IQ hyperspectral scanner.
-- Code to process the raw files (i.e., stitching scans that were made in segments, reading out spectra from samples).
+- [Code](https://github.com/rubenwiersma/painting_tools/tree/main/notebooks) to process the raw files (i.e., stitching scans that were made in segments, reading out spectra from samples).
 - Processed data.
 - An example python Notebook for unmixing paints with [Pigmento](https://cragl.cs.gmu.edu/pigmento/) using the data.
 
-The data was captured as part of research conducted at the [CGV group at the TU Delft](https://graphics.tudelft.nl) by [Ruben Wiersma](https://www.rubenwiersma.nl). The reconstructions were painted by Lisa Wiersma and Mané van Veldhuizen. Matthias Alfeld generously assisted in capturing the hyperspectral scans.
+The data was captured as part of research conducted at the [CGV group at the TU Delft](https://graphics.tudelft.nl) by [Ruben Wiersma](https://www.rubenwiersma.nl). The reconstructions were painted by Lisa Wiersma, Charlotte Caspers, and Mané van Veldhuizen. Matthias Alfeld generously assisted in capturing the hyperspectral scans.
 
 The data is shared under a permissive copyright license ([CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)) and the code under the MIT license. If this data or code is helpful to your research, please cite this repository and attribute the artists ([see below](#citing-and-attribution)) and [send me an email](mailto:rubenwiersma@gmail.com). I would love to hear your thoughts and feedback!
 
+![Rachel Ruysch's bloemstilleven calibrated and stitched](img/ruysch_calibrated.png)
+_Left: The calibrated and stitched hyperspectral scan of Rachel Ruysch's bloemstilleven as reconstructed by Lisa Wiersma. Right: the RGB photograph used to register the hyperspectral scans. [See the corresponding notebook](https://github.com/rubenwiersma/painting_tools/blob/main/notebooks/01_painting_dataset/hyperspectral_calibration_stitching.ipynb) for more._
+
 ## Table of contents
 - [Download links](#download-links)
+- [Paintings and pigments](#paintings-and-pigments)
 - [How to use](#how-to-use)
 - [Usecases](#usecases)
 - [Frequently Asked Questions](#frequendly-asked-questions)
@@ -45,6 +52,35 @@ painting_data
      |    deheem_grapes_detail0
      |    ...
 ```
+
+## Paintings and pigments
+This dataset contains scans of reconstructions of the following paintings:
+- Two details from [_Guirlande van vruchten met enkele bloemen_](https://www.mauritshuis.nl/ontdek-collectie/kunstwerken/49-guirlande-van-vruchten-met-enkele-bloemen) by Jan Davidsz de Heem (1650-1660)
+<br />Reconstruction by Lisa Wiersma
+- [_Trompe-l'oeil stilleven_](https://www.verenigingrembrandt.nl/nl/kunst/trompe-loeil-brievenbord-1) by Samuel van Hoogstraten (1664)
+<br />Reconstruction by Lisa Wiersma. [Episode of _Het geheim van de meester_](https://www.avrotros.nl/archive/samuel-van-hoogstraten-brievenbord-trompe-loeil~fis8puty/) documenting the reconstruction process.
+- [_Vaas met bloemen_](https://www.mauritshuis.nl/ontdek-collectie/kunstwerken/151-vaas-met-bloemen) by Rachel Ruysch (1700)
+<br />Reconstruction by Lisa Wiersma. [Episode of _Het geheim van de meester_](https://www.avrotros.nl/archive/ruysch-vaas-met-bloemen~guvjlaq8/) documenting the reconstruction process.
+- [_De piskijker_](https://www.lakenhal.nl/nl/collectie/b-1500) by Jan Steen (ca. 1663-1665)
+<br />Reconstruction by Lisa Wiersma. [Episode of _Het geheim van de meester_](https://www.avrotros.nl/archive/het-geheim-van-de-meester-21~zbhleotg/) documenting the reconstruction process.
+- [_Meisje met de Parel_](https://www.mauritshuis.nl/ontdek-collectie/kunstwerken/670-meisje-met-de-parel) by Johannes Vermeer (1665)
+<br />Reconstruction by Charlotte Caspers. [Episode of _Het geheim van de meester_](https://www.avrotros.nl/archive/johannes-vermeer-meisje-met-de-parel-01-09-2016~dxlxb682/) documenting the reconstruction process.
+- Two detail panels (containing multiple details) of [_Meisje met de Parel_](https://www.mauritshuis.nl/ontdek-collectie/kunstwerken/670-meisje-met-de-parel) by Johannes Vermeer (1665)
+<br />Reconstruction by Mané van Veldhuizen.
+- [_Het melkmeisje_](https://www.rijksmuseum.nl/nl/stories/thema/vermeer/story/alle-vermeers-het-melkmeisje) by Johannes Vermeer (ca. 1660)
+<br />Reconstruction by Lisa Wiersma. [Episode of _Het geheim van de meester_](https://www.avrotros.nl/archive/het-geheim-van-de-meester-16~pietb3vp/) documenting the reconstruction process.
+
+The following pigments were measured (six-digit code refers to Kremer pigment codes). These were selected based on their use in Vermeer's Girl with a Pearl Earring and to cover a wide gamut:
+- Titanium wit	46200
+- Bone black	47100
+- Chalk white	58000
+- French Ochre 40030
+- French Ochre JALS 40060
+- Lapis Lazuli from chile	10550
+- Raw umber greenish	40612
+- Red lake	36020
+- Indigo	36000
+- Jaune de réséda (yellow lacquer)
 
 ## How to use
 This repository contains a python package, `painting_tools`, to work with spectral data (conversion from spectral to RGB, stitching) and for mixing and layering pigments using the Kubelka-Munk model. In addition, we share several Jupyter Notebooks to process and use the accompanying dataset.
