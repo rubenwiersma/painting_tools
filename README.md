@@ -14,7 +14,7 @@ For each scan, we provide:
 - Raw scan files from the Specim IQ hyperspectral scanner.
 - [Code](https://github.com/rubenwiersma/painting_tools/tree/main/notebooks) to process the raw files (i.e., stitching scans that were made in segments, reading out spectra from samples).
 - Processed data.
-- An example python Notebook for unmixing paints with [Pigmento](https://cragl.cs.gmu.edu/pigmento/) using the data.
+- An example python Notebook for unmixing paints with a reimplementation of [Pigmento](https://cragl.cs.gmu.edu/pigmento/) [[1](#references)] using a painting and paint database from our dataset.
 
 The data was captured as part of research conducted at the [CGV group at the TU Delft](https://graphics.tudelft.nl) by [Ruben Wiersma](https://www.rubenwiersma.nl) for a project in collaboration with Elmar Eisemann and Adrien Bousseau. The reconstructions were painted by Lisa Wiersma, Charlotte Caspers, and Mané van Veldhuizen. Matthias Alfeld generously assisted in capturing the hyperspectral scans.
 
@@ -153,3 +153,7 @@ If the code is useful in your projects, please cite this repository:
   url = {https://github.com/rubenwiersma/painting_tools},
   year = {2025}
 }
+```
+
+## References
+[1] J. Tan, S. DiVerdi, J. Lu and Y. Gingold, "Pigmento: Pigment-Based Image Analysis and Editing," in IEEE Transactions on Visualization and Computer Graphics, vol. 25, no. 9, pp. 2791-2803, 1 Sept. 2019, doi: 10.1109/TVCG.2018.2858238
