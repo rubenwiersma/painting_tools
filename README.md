@@ -123,7 +123,7 @@ We share this data and code in the hopes that other researchers may find it usef
 
 ## Frequendly Asked Questions
 - **When and why was this data captured?** The paintings were reconstructed for the TV show "Het geheim van de meester" by Lisa Wiersma. They were scanned in 2023 to support research in identifying and mapping pigments in historical paintings.
-- **Why are you sharing this data?** I had planned to use the data for a research project, but was not able to use the data due to time limitations. I believe the data can be of use to other researchers, so why not share it? I also believe strongly that the field of technical art history needs more open source data and code. This is my humble contribution to this.
+- **Why are you sharing this data?** I had planned to use the data for a research project, but was not able to use the data due to time limitations. I believe the data can be of use to other researchers, so why not share it? I also believe strongly that the field of technical art history needs more open source data and code.
 - **How were the paint samples prepared?** We followed the process for constructing paint samples described in the [thesis of Yoshi Okumura](https://repository.rit.edu/cgi/viewcontent.cgi?article=5896&context=theses). Each pigment was dissolved in linseed oil and ground to a workable paint. The paints were then mixed with Titanium white on a measuring scale so that we would get three mixtures: full pigment, 1:1 pigment:white, 1:2 pigment white. Please reach out to me if you would like more details on this process and the logs of the paint preparation. Technical details:
     - The pigments were bought from Kremer pigments.
     - Linseed oil (cooked) from Verfmolen de kat.
