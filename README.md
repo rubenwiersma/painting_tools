@@ -145,6 +145,8 @@ The dataset is licensed under CC BY-NC-SA 4.0. To view a copy of this license, v
 The paintings were painted by Lisa Wiersma and Mane van Veldhuizen (vermeer_girl_details) and captured by Ruben Wiersma and Matthias Alfeld. The paintouts were made by Ruben Wiersma and Mane van Veldhuizen and captured by Ruben Wiersma and Matthias Alfeld. 
 
 If the code is useful in your projects, please cite this repository:
+
+**BibTex**
 ```
 @misc{wiersma2025hyperspectral,
   author       = {Wiersma, R.},
@@ -156,6 +158,14 @@ If the code is useful in your projects, please cite this repository:
   howpublished = {\url{https://osf.io/pgn28}}
 }
 ```
+**APA**<br />
+Wiersma, R. (2025, June 12). Hyperspectral Oil Paint and Painting Dataset. https://doi.org/10.17605/OSF.IO/PGN28
+
+**MLA**<br />
+Wiersma, Ruben. “Hyperspectral Oil Paint and Painting Dataset.” OSF, 12 June 2025. Web.
+
+**Chicago**<br />
+Wiersma, Ruben. 2025. “Hyperspectral Oil Paint and Painting Dataset.” OSF. June 12. doi:10.17605/OSF.IO/PGN28.
 
 ## References
 [1] J. Tan, S. DiVerdi, J. Lu and Y. Gingold, "Pigmento: Pigment-Based Image Analysis and Editing," in IEEE Transactions on Visualization and Computer Graphics, vol. 25, no. 9, pp. 2791-2803, 1 Sept. 2019, doi: 10.1109/TVCG.2018.2858238
