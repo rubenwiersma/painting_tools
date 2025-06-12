@@ -1,5 +1,7 @@
 # Painting Tools and Dataset
 
+ <a href="https://doi.org/10.17605/OSF.IO/PGN28" alt="doi"><img src="https://img.shields.io/badge/DOI-10.17605/OSF.IO/PGN28-red?style=plastic&logo=doi&color=red" alt="website"></a>
+
 ![Paintout samples used in the Kubelka-Munk model](img/pigments_overview.png)
 <small>_Processed paint samples, using the Kubelka-Munk model to compute reflection and the `painting_tools` package to display the RGB values. [See the corresponding notebook](https://github.com/rubenwiersma/painting_tools/blob/main/notebooks/02_oilpaint_dataset/02_captured_parameter_estimation.ipynb) to understand how these parameters were estimated._</small>
 
