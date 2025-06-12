@@ -146,12 +146,14 @@ The paintings were painted by Lisa Wiersma and Mane van Veldhuizen (vermeer_girl
 
 If the code is useful in your projects, please cite this repository:
 ```
-@software{Wiersma_Painting_2025,
-  author = {Wiersma, Ruben},
-  month = {02},
-  title = {Painting Tools},
-  url = {https://github.com/rubenwiersma/painting_tools},
-  year = {2025}
+@misc{wiersma2025hyperspectral,
+  author       = {Wiersma, R.},
+  title        = {Hyperspectral Oil Paint and Painting Dataset},
+  year         = {2025},
+  month        = {June},
+  note         = {Retrieved from \url{https://osf.io/pgn28}},
+  doi          = {10.17605/OSF.IO/PGN28},
+  howpublished = {\url{https://osf.io/pgn28}}
 }
 ```
 
